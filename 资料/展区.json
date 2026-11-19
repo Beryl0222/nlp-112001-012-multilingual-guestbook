@@ -1,0 +1,14 @@
+[
+  {
+    "id": "g1",
+    "medium": "纸展",
+    "languages": "zh",
+    "audience": "园区来宾"
+  },
+  {
+    "id": "g2",
+    "medium": "双语网页",
+    "languages": "zh、en",
+    "audience": "公众"
+  }
+]

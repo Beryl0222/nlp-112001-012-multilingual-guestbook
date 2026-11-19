@@ -1,0 +1,14 @@
+{
+  "name": "multilingual-guestbook",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "合成访客手账展务记录",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "test": "node --test",
+    "materials": "node materials.js"
+  }
+}
