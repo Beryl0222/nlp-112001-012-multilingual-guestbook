@@ -1,0 +1,528 @@
+{
+  "currentVersion": "v2",
+  "venues": [
+    {
+      "venue": "纸展",
+      "publicCount": 2,
+      "privateCount": 9,
+      "privateItems": [
+        {
+          "recordId": "b1",
+          "range": {
+            "start": 0,
+            "end": 13
+          },
+          "originalText": "借用上一页的“天光正好”。",
+          "reasons": [
+            {
+              "code": "quoted-source-no-consent",
+              "detail": "引用“天光正好”指向前页 b2，该记录未同意本展区"
+            },
+            {
+              "code": "misattribution-risk",
+              "detail": "去掉引用后读者会把前页祝词误归本页作者"
+            }
+          ]
+        },
+        {
+          "recordId": "b1",
+          "range": {
+            "start": 13,
+            "end": 28
+          },
+          "originalText": "小伊陪我来，她在松灯摊做木刻。",
+          "reasons": [
+            {
+              "code": "not-standalone-after-redaction",
+              "detail": "抹除线索后句子无法独立理解，整条保留私人记录"
+            }
+          ]
+        },
+        {
+          "recordId": "b2",
+          "range": {
+            "start": 0,
+            "end": 17
+          },
+          "originalText": "Good light today.",
+          "reasons": [
+            {
+              "code": "language-not-covered",
+              "detail": "片段语言 en 不在展区语言 zh 内"
+            },
+            {
+              "code": "no-live-consent",
+              "detail": "b2 在“纸展”无当前有效同意"
+            }
+          ]
+        },
+        {
+          "recordId": "b2",
+          "range": {
+            "start": 18,
+            "end": 49
+          },
+          "originalText": "This greeting is from me, Nari.",
+          "reasons": [
+            {
+              "code": "language-not-covered",
+              "detail": "片段语言 en 不在展区语言 zh 内"
+            },
+            {
+              "code": "no-live-consent",
+              "detail": "b2 在“纸展”无当前有效同意"
+            }
+          ]
+        },
+        {
+          "recordId": "b3",
+          "range": {
+            "start": 0,
+            "end": 36
+          },
+          "originalText": "I came here to wish the market well.",
+          "reasons": [
+            {
+              "code": "language-not-covered",
+              "detail": "片段语言 en 不在展区语言 zh 内"
+            },
+            {
+              "code": "no-live-consent",
+              "detail": "b3 在“纸展”无当前有效同意"
+            }
+          ]
+        },
+        {
+          "recordId": "b3",
+          "range": {
+            "start": 37,
+            "end": 76
+          },
+          "originalText": "A companion from Pine Lamp was with me.",
+          "reasons": [
+            {
+              "code": "language-not-covered",
+              "detail": "片段语言 en 不在展区语言 zh 内"
+            },
+            {
+              "code": "no-live-consent",
+              "detail": "b3 在“纸展”无当前有效同意"
+            },
+            {
+              "code": "not-standalone-after-redaction",
+              "detail": "抹除线索后句子无法独立理解，整条保留私人记录"
+            }
+          ]
+        },
+        {
+          "recordId": "t1",
+          "range": {
+            "start": 0,
+            "end": 71
+          },
+          "originalText": "May and Yi, the woodcut artist from Pine Lamp, wrote: Good light today.",
+          "reasons": [
+            {
+              "code": "language-not-covered",
+              "detail": "片段语言 en 不在展区语言 zh 内"
+            },
+            {
+              "code": "attribution-fault",
+              "detail": "译文出现不属于原文作者的称呼：Yi"
+            }
+          ]
+        },
+        {
+          "recordId": "t2",
+          "range": {
+            "start": 0,
+            "end": 8
+          },
+          "originalText": "愿市集一切都好。",
+          "reasons": [
+            {
+              "code": "no-live-consent",
+              "detail": "b3 在“纸展”无当前有效同意"
+            },
+            {
+              "code": "translation-not-licensed",
+              "detail": "b3 未在“纸展”明确同意该译文/可译范围"
+            }
+          ]
+        },
+        {
+          "recordId": "t2",
+          "range": {
+            "start": 8,
+            "end": 19
+          },
+          "originalText": "松灯的同伴和我一起来。",
+          "reasons": [
+            {
+              "code": "no-live-consent",
+              "detail": "b3 在“纸展”无当前有效同意"
+            },
+            {
+              "code": "translation-not-licensed",
+              "detail": "b3 未在“纸展”明确同意该译文/可译范围"
+            },
+            {
+              "code": "not-standalone-after-redaction",
+              "detail": "抹除线索后句子无法独立理解，整条保留私人记录"
+            }
+          ]
+        }
+      ],
+      "combinations": [
+        {
+          "clusterId": "c1",
+          "risk": "松灯摊＋木刻艺人＋同行者三类线索并列，可把匿名祝愿重新指认为小伊/Yi（P3）",
+          "handling": "private-only",
+          "alternative": "改用不指向摊位与职业的通用祝愿说明",
+          "narrowedWish": "愿市集一切都好。",
+          "exposedIn": [],
+          "residualRisk": false
+        }
+      ]
+    },
+    {
+      "venue": "双语网页",
+      "publicCount": 4,
+      "privateCount": 7,
+      "privateItems": [
+        {
+          "recordId": "b1",
+          "range": {
+            "start": 0,
+            "end": 13
+          },
+          "originalText": "借用上一页的“天光正好”。",
+          "reasons": [
+            {
+              "code": "no-live-consent",
+              "detail": "b1 在“双语网页”无当前有效同意"
+            }
+          ]
+        },
+        {
+          "recordId": "b1",
+          "range": {
+            "start": 13,
+            "end": 28
+          },
+          "originalText": "小伊陪我来，她在松灯摊做木刻。",
+          "reasons": [
+            {
+              "code": "no-live-consent",
+              "detail": "b1 在“双语网页”无当前有效同意"
+            },
+            {
+              "code": "not-standalone-after-redaction",
+              "detail": "抹除线索后句子无法独立理解，整条保留私人记录"
+            }
+          ]
+        },
+        {
+          "recordId": "b3",
+          "range": {
+            "start": 37,
+            "end": 76
+          },
+          "originalText": "A companion from Pine Lamp was with me.",
+          "reasons": [
+            {
+              "code": "not-standalone-after-redaction",
+              "detail": "抹除线索后句子无法独立理解，整条保留私人记录"
+            }
+          ]
+        },
+        {
+          "recordId": "b4",
+          "range": {
+            "start": 0,
+            "end": 9
+          },
+          "originalText": "我喜欢旧市的木刻。",
+          "reasons": [
+            {
+              "code": "no-live-consent",
+              "detail": "b4 在“双语网页”无当前有效同意"
+            }
+          ]
+        },
+        {
+          "recordId": "b4",
+          "range": {
+            "start": 9,
+            "end": 18
+          },
+          "originalText": "给大家留一句平安。",
+          "reasons": [
+            {
+              "code": "no-live-consent",
+              "detail": "b4 在“双语网页”无当前有效同意"
+            }
+          ]
+        },
+        {
+          "recordId": "t1",
+          "range": {
+            "start": 0,
+            "end": 71
+          },
+          "originalText": "May and Yi, the woodcut artist from Pine Lamp, wrote: Good light today.",
+          "reasons": [
+            {
+              "code": "no-live-consent",
+              "detail": "b1 在“双语网页”无当前有效同意"
+            },
+            {
+              "code": "attribution-fault",
+              "detail": "译文出现不属于原文作者的称呼：Yi"
+            },
+            {
+              "code": "translation-not-licensed",
+              "detail": "b1 未在“双语网页”明确同意该译文/可译范围"
+            }
+          ]
+        },
+        {
+          "recordId": "t2",
+          "range": {
+            "start": 8,
+            "end": 19
+          },
+          "originalText": "松灯的同伴和我一起来。",
+          "reasons": [
+            {
+              "code": "not-standalone-after-redaction",
+              "detail": "抹除线索后句子无法独立理解，整条保留私人记录"
+            }
+          ]
+        }
+      ],
+      "combinations": [
+        {
+          "clusterId": "c1",
+          "risk": "松灯摊＋木刻艺人＋同行者三类线索并列，可把匿名祝愿重新指认为小伊/Yi（P3）",
+          "handling": "private-only",
+          "alternative": "改用不指向摊位与职业的通用祝愿说明",
+          "narrowedWish": "愿市集一切都好。",
+          "exposedIn": [],
+          "residualRisk": false
+        }
+      ]
+    }
+  ],
+  "staffClusters": [
+    {
+      "clusterId": "c1",
+      "terms": [
+        "松灯",
+        "松灯摊",
+        "Pine Lamp",
+        "木刻",
+        "woodcut",
+        "小伊",
+        "Yi",
+        "同伴",
+        "companion"
+      ],
+      "risk": "松灯摊＋木刻艺人＋同行者三类线索并列，可把匿名祝愿重新指认为小伊/Yi（P3）",
+      "handling": "private-only",
+      "occurrences": [
+        {
+          "recordId": "b1",
+          "range": {
+            "start": 13,
+            "end": 28
+          }
+        },
+        {
+          "recordId": "b3",
+          "range": {
+            "start": 37,
+            "end": 76
+          }
+        },
+        {
+          "recordId": "b4",
+          "range": {
+            "start": 0,
+            "end": 9
+          }
+        },
+        {
+          "recordId": "t1",
+          "range": {
+            "start": 0,
+            "end": 71
+          }
+        },
+        {
+          "recordId": "t2",
+          "range": {
+            "start": 8,
+            "end": 19
+          }
+        }
+      ]
+    }
+  ],
+  "retiredVersions": [
+    {
+      "version": "v1",
+      "label": "初始发布版",
+      "basis": [
+        {
+          "consentId": "r1",
+          "contributor": "Mei",
+          "source": "b1",
+          "scope": "纸展",
+          "appliedEvents": [
+            {
+              "eventId": "r1-sole",
+              "clause": "可留自己的昵称，原祝词可用。旁边人的身份未确认。",
+              "rules": [
+                {
+                  "element": "greeting",
+                  "decision": "allow",
+                  "matched": "原祝词可用"
+                },
+                {
+                  "element": "nickname",
+                  "decision": "allow",
+                  "matched": "可留自己的昵称"
+                },
+                {
+                  "element": "companion",
+                  "decision": "deny",
+                  "matched": "旁边人的身份未确认"
+                }
+              ]
+            }
+          ],
+          "retiredEvents": []
+        },
+        {
+          "consentId": "r2",
+          "contributor": "May Lin",
+          "source": "b3",
+          "scope": "双语网页",
+          "appliedEvents": [
+            {
+              "eventId": "r2-sole",
+              "clause": "愿市集一切都好这句可译。同行者信息不公开。",
+              "rules": [
+                {
+                  "element": "greeting",
+                  "decision": "allow",
+                  "matched": "这句可译"
+                },
+                {
+                  "element": "companion",
+                  "decision": "deny",
+                  "matched": "同行者信息不公开"
+                },
+                {
+                  "element": "language",
+                  "decision": "allow",
+                  "matched": "可译"
+                }
+              ]
+            }
+          ],
+          "retiredEvents": []
+        },
+        {
+          "consentId": "r3",
+          "contributor": "Yi",
+          "source": "b4",
+          "scope": "园区纸展",
+          "appliedEvents": [
+            {
+              "eventId": "r3-initial",
+              "clause": "同意保留祝词和昵称。",
+              "rules": [
+                {
+                  "element": "greeting",
+                  "decision": "allow",
+                  "matched": "保留祝词"
+                },
+                {
+                  "element": "nickname",
+                  "decision": "allow",
+                  "matched": "同意保留祝词和昵称"
+                }
+              ]
+            }
+          ],
+          "retiredEvents": []
+        },
+        {
+          "consentId": "r4",
+          "contributor": "Nari",
+          "source": "b2",
+          "scope": "双语网页",
+          "appliedEvents": [
+            {
+              "eventId": "r4-sole",
+              "clause": "可公开祝词，不公开本人标识。",
+              "rules": [
+                {
+                  "element": "greeting",
+                  "decision": "allow",
+                  "matched": "可公开祝词"
+                },
+                {
+                  "element": "nickname",
+                  "decision": "deny",
+                  "matched": "不公开本人标识"
+                }
+              ]
+            }
+          ],
+          "retiredEvents": []
+        }
+      ],
+      "venues": [
+        {
+          "venue": "纸展",
+          "publicCount": 2,
+          "items": [
+            {
+              "recordId": "b4",
+              "publicText": "我喜欢旧市的[已抹除]。"
+            },
+            {
+              "recordId": "b4",
+              "publicText": "给大家留一句平安。"
+            }
+          ]
+        },
+        {
+          "venue": "双语网页",
+          "publicCount": 4,
+          "items": [
+            {
+              "recordId": "b2",
+              "publicText": "Good light today."
+            },
+            {
+              "recordId": "b2",
+              "publicText": "This greeting is from me, [已抹除]."
+            },
+            {
+              "recordId": "b3",
+              "publicText": "I came here to wish the market well."
+            },
+            {
+              "recordId": "t2",
+              "publicText": "愿市集一切都好。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

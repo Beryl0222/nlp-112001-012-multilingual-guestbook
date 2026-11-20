@@ -1,0 +1,153 @@
+{
+  "version": "v2",
+  "venue": {
+    "id": "g2",
+    "medium": "双语网页",
+    "audience": "公众",
+    "languages": [
+      "zh",
+      "en"
+    ]
+  },
+  "access": "public",
+  "items": [
+    {
+      "recordId": "b2",
+      "source": "b2",
+      "page": "6",
+      "kind": "page",
+      "language": "en",
+      "range": {
+        "start": 0,
+        "end": 17
+      },
+      "originalText": "Good light today.",
+      "publicText": "Good light today.",
+      "redaction": [],
+      "signatureDisplay": {
+        "original": "Nari",
+        "publicSignature": "匿名访客",
+        "tokens": [
+          {
+            "token": "Nari",
+            "display": null,
+            "basis": "nickname-denied"
+          }
+        ]
+      },
+      "recertification": null,
+      "consentScope": [
+        {
+          "consentId": "r4",
+          "scope": "双语网页"
+        }
+      ],
+      "quotations": [],
+      "decision": "public",
+      "reasons": []
+    },
+    {
+      "recordId": "b2",
+      "source": "b2",
+      "page": "6",
+      "kind": "page",
+      "language": "en",
+      "range": {
+        "start": 18,
+        "end": 49
+      },
+      "originalText": "This greeting is from me, Nari.",
+      "publicText": "This greeting is from me, [已抹除].",
+      "redaction": [
+        {
+          "start": 26,
+          "end": 30,
+          "reason": "nickname-denied",
+          "value": "Nari"
+        }
+      ],
+      "signatureDisplay": {
+        "original": "Nari",
+        "publicSignature": "匿名访客",
+        "tokens": [
+          {
+            "token": "Nari",
+            "display": null,
+            "basis": "nickname-denied"
+          }
+        ]
+      },
+      "recertification": null,
+      "consentScope": [
+        {
+          "consentId": "r4",
+          "scope": "双语网页"
+        }
+      ],
+      "quotations": [],
+      "decision": "public",
+      "reasons": []
+    },
+    {
+      "recordId": "b3",
+      "source": "b3",
+      "page": "8",
+      "kind": "page",
+      "language": "en",
+      "range": {
+        "start": 0,
+        "end": 36
+      },
+      "originalText": "I came here to wish the market well.",
+      "publicText": "I came here to wish the market well.",
+      "redaction": [],
+      "signatureDisplay": {
+        "original": "May Lin",
+        "publicSignature": "匿名访客",
+        "tokens": [
+          {
+            "token": "May Lin",
+            "display": null,
+            "basis": "name-not-cleared"
+          }
+        ]
+      },
+      "recertification": null,
+      "consentScope": [
+        {
+          "consentId": "r2",
+          "scope": "双语网页"
+        }
+      ],
+      "quotations": [],
+      "decision": "public",
+      "reasons": []
+    },
+    {
+      "recordId": "t2",
+      "source": "b3",
+      "page": "8",
+      "kind": "translation",
+      "language": "zh",
+      "range": {
+        "start": 0,
+        "end": 8
+      },
+      "originalText": "愿市集一切都好。",
+      "publicText": "愿市集一切都好。",
+      "redaction": [],
+      "signatureDisplay": null,
+      "recertification": null,
+      "consentScope": [
+        {
+          "consentId": "r2",
+          "scope": "双语网页"
+        }
+      ],
+      "quotations": [],
+      "decision": "public",
+      "reasons": []
+    }
+  ],
+  "combinationNotice": []
+}

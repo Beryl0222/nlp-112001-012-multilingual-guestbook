@@ -1,0 +1,23 @@
+{
+  "currentVersion": "v2",
+  "generatedFrom": {
+    "pages": 4,
+    "translations": 2,
+    "consents": 4,
+    "venues": 2
+  },
+  "venues": [
+    {
+      "medium": "纸展",
+      "file": "纸展.json",
+      "publicItems": 2,
+      "privateItems": 9
+    },
+    {
+      "medium": "双语网页",
+      "file": "双语网页.json",
+      "publicItems": 4,
+      "privateItems": 7
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "version": "v2",
+  "venue": {
+    "id": "g1",
+    "medium": "纸展",
+    "audience": "园区来宾",
+    "languages": [
+      "zh"
+    ]
+  },
+  "access": "public",
+  "items": [
+    {
+      "recordId": "b4",
+      "source": "b4",
+      "page": "9",
+      "kind": "page",
+      "language": "zh",
+      "range": {
+        "start": 0,
+        "end": 9
+      },
+      "originalText": "我喜欢旧市的木刻。",
+      "publicText": "我喜欢旧市的[已抹除]。",
+      "redaction": [
+        {
+          "start": 6,
+          "end": 8,
+          "reason": "occupation-not-cleared",
+          "value": "木刻"
+        }
+      ],
+      "signatureDisplay": {
+        "original": "Yi",
+        "publicSignature": "匿名访客",
+        "tokens": [
+          {
+            "token": "Yi",
+            "display": null,
+            "basis": "nickname-denied"
+          }
+        ]
+      },
+      "recertification": null,
+      "consentScope": [
+        {
+          "consentId": "r3",
+          "scope": "园区纸展"
+        }
+      ],
+      "quotations": [],
+      "decision": "public",
+      "reasons": []
+    },
+    {
+      "recordId": "b4",
+      "source": "b4",
+      "page": "9",
+      "kind": "page",
+      "language": "zh",
+      "range": {
+        "start": 9,
+        "end": 18
+      },
+      "originalText": "给大家留一句平安。",
+      "publicText": "给大家留一句平安。",
+      "redaction": [],
+      "signatureDisplay": {
+        "original": "Yi",
+        "publicSignature": "匿名访客",
+        "tokens": [
+          {
+            "token": "Yi",
+            "display": null,
+            "basis": "nickname-denied"
+          }
+        ]
+      },
+      "recertification": null,
+      "consentScope": [
+        {
+          "consentId": "r3",
+          "scope": "园区纸展"
+        }
+      ],
+      "quotations": [],
+      "decision": "public",
+      "reasons": []
+    }
+  ],
+  "combinationNotice": []
+}
